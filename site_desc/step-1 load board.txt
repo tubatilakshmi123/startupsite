@@ -1,0 +1,54 @@
+Load board page is where load brokers will enter the load details so that our company can
+use those loads.
+
+Load board consists of the following details.
+
+CB- checkbox
+RB- Radio button.
+DD- Dropdown
+TB- textbox
+NB- Numeric input.
+
+following are the details that broker needs to enter. 
+
+fields marked with * are compulsory.
+
+------------------------Load details------------------
+
+TB	Load contents*
+NB	Load total Weight in MT* 	minimum 3
+NB	No.of trucks required* 		minimum 1 maximum infinite.
+RB	Refrigertion required*  	Yes/no
+DD	Load type			Pallets, Bags, etc. we will populate this dropdown as we go.
+TB	Pickup date*			allow user to select date from calender.
+TB 	Dropdown date			not compulsory.
+DD	Delivery type*			Standard, Express.
+--------------------------------------------------------
+TB	pickup city/town*
+TB	PinCode*
+TB	Mobile number of contact person*
+TB	name of contact person*
+
+TB 	destination address*
+TB	Destination city/town*
+TB	Pincode*
+TB	Name of contact person*
+TB	mobile number of contact person*
+------------------------------------Company and contact details--------
+
+TB	Company Name*
+TB	Company address*
+TB	City/town.
+
+allow user to save this company details under his profile so that
+he can add more loads easily in future.
+
+
+Atfer user enters and submits all these details bring a popup window. It should contain a map.
+user will now pinpoints the pickup and drop location. Ofcouse this is not compulosry.
+
+make it optional.
+
+
+
+thats it this part is done. save all user entered details in a database.
