@@ -45,9 +45,8 @@ he can add more loads easily in future.
 
 
 Atfer user enters and submits all these details bring a popup window. It should contain a map.
-user will now pinpoints the pickup and drop location. Ofcouse this is not compulosry.
-
-make it optional.
+user will now pinpoints the pickup and drop location from where you will extract latitude and longitude.
+Ofcouse this is not compulosry.Make it optional. for eg add a skip this step hyperlink.
 
 
 
